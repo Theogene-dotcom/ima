@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("welcome to kigali international airport")
+    return render(request,'index.html')
